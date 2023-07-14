@@ -223,7 +223,7 @@ Event OnPageReset(String Page)
 		EndIf
 		SongbookCheatToggle = AddToggleOption("Enable Songbook Cheat Menu", _LP_BardSongbookCheat.GetValue() As Int)
 		SetCursorPosition(1)
-		AddTextOption("Mod Version No.", "6.1.1", OPTION_FLAG_DISABLED)															 ; CHANGE THIS WITH EACH RELEASE
+		AddTextOption("Mod Version No.", "6.1.2", OPTION_FLAG_DISABLED)															 ; CHANGE THIS WITH EACH RELEASE
 		AddTextOption("Compatible Plugins Detected:", "", OPTION_FLAG_DISABLED)
 		If Game.GetModByName("Dragonborn.esm") != 255
 			AddToggleOption("Dragonborn", 1, OPTION_FLAG_DISABLED)

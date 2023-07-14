@@ -43,7 +43,7 @@ Event OnUpdate()
 	CompatibilityChecks()
 
 	If _LP_BardVersionNum.GetValue() As Int == 0
-		_LP_BardVersionNum.SetValue(060101)								; CHANGE THIS NUM FOR EACH RELEASE!!!
+		_LP_BardVersionNum.SetValue(060102)								; CHANGE THIS NUM FOR EACH RELEASE!!!
 	EndIf
 
 	If _LP_BardKeepJournal.GetValue() As Int == 1
@@ -88,8 +88,8 @@ Function Update()
 		_LP_BardQuest.Start()
 		_LP_BardConfigQuest.Start()
 		RefreshSongbooks()
-		_LP_BardVersionNum.SetValue(060101) 									; CHANGE THIS NUM FOR EACH RELEASE!!!
-		Debug.MessageBox("Become a Bard mod has been updated to 6.1.1.  See mod page for details.")	; CHANGE THE MSG FOR EACH RELEASE!!!
+		_LP_BardVersionNum.SetValue(060102) 									; CHANGE THIS NUM FOR EACH RELEASE!!!
+		Debug.MessageBox("Become a Bard mod has been updated to 6.1.2.  See mod page for details.")	; CHANGE THE MSG FOR EACH RELEASE!!!
 	EndIf
 EndFunction
 
